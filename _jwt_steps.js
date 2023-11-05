@@ -13,6 +13,11 @@
 
 /**
  * 1. set cookies with http only. for development secure: false, 
- * 2. cors
- * 3. client side e axios diea setting set korte hobe
+ * 2. cors: 
+ *      app.use(cors({
+            origin: ['http://localhost:5173'],
+            credentials: true
+        }));
+ * 3. client side e axios diea setting set korte hobe:
+        in axios set withCredientials: true
  */
